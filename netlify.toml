@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/water.html"
+  to = "/water/"
+  status = 301
+
+[[redirects]]
+  from = "/compliance.html"
+  to = "/compliance/"
+  status = 301

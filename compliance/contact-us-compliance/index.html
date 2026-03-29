@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Environnivate</title>
+  <title>Contact Us | Environnivate Compliance</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Plus+Jakarta+Sans:wght@500;600&display=swap" rel="stylesheet">
@@ -30,48 +30,53 @@
   </nav>
 
   <!-- Hero -->
-  <section class="hero" style="background-image: url('/wp-content/uploads/2025/04/Home-Banner.jpg');">
+  <section class="hero" style="background-image: url('/wp-content/uploads/2025/04/Enquiry_BG.jpg');">
     <div class="hero__content">
-      <h1>Welcome to Environnivate</h1>
-      <p>Environnivate is a Western Australian based Environmental Consultancy specialising in environmental compliance management.</p>
+      <h1>Contact Us</h1>
+      <h3>We are ready to hear from you</h3>
     </div>
   </section>
 
-  <!-- Who We Are -->
+  <!-- Contact -->
   <section class="section">
     <div class="container">
-      <h2 class="section__heading">Who We Are</h2>
-      <p>Environnivate is a Western Australian based Environmental Consultancy specialising in environmental compliance management.</p>
-      <br>
-      <p>Environnivate Water has 25 years of experience in surface water and groundwater projects in Western Australia.</p>
-    </div>
-  </section>
 
-  <!-- Services -->
-  <section class="section section--light">
-    <div class="container">
-      <h2 class="section__heading">Our Services</h2>
-      <div class="grid-2">
-
-        <div class="card">
-          <img class="card__img" src="/wp-content/uploads/2025/05/17-Plant-H-edit.jpg" alt="Compliance">
-          <div class="card__body">
-            <h3 class="card__title">COMPLIANCE</h3>
-            <p class="card__text">Environnivate is a Western Australian based Environmental Consultancy specialising in environmental compliance management. Andrea Wills has over 20 years of industry experience across all facets of industry projects activities.</p>
-            <a href="/compliance/" class="btn">Learn More</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="card__img" src="/wp-content/uploads/2025/04/Water.jpg" alt="Water">
-          <div class="card__body">
-            <h3 class="card__title">WATER</h3>
-            <p class="card__text">Environnivate Water has 25 years of experience in surface water and groundwater projects in Western Australia.</p>
-            <a href="/water/" class="btn">Learn More</a>
-          </div>
-        </div>
-
+      <div class="contact-info">
+        <h3 class="contact-info__name">Andrea Wills</h3>
+        <p class="contact-info__role">Principal Environmental Consultant — Compliance</p>
+        <p><a href="mailto:andrea@environnivate.com.au">andrea@environnivate.com.au</a></p>
+        <p><a href="tel:0417993734">0417 993 734</a></p>
       </div>
+
+      <form class="contact-form" name="contact-compliance" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact-compliance">
+        <p class="hidden">
+          <label>Don't fill this out if you're human: <input name="bot-field"></label>
+        </p>
+
+        <div class="form-group">
+          <label for="name-compliance">Name</label>
+          <input type="text" id="name-compliance" name="name" placeholder="Name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email-compliance">Email</label>
+          <input type="email" id="email-compliance" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject-compliance">Subject</label>
+          <input type="text" id="subject-compliance" name="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message-compliance">Message</label>
+          <textarea id="message-compliance" name="message" placeholder="Message" rows="10" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
     </div>
   </section>
 
@@ -81,7 +86,7 @@
       <div class="footer__inner">
         <div>
           <img class="footer__logo" src="/wp-content/uploads/2025/04/Environnivate.png" alt="Environnivate">
-          <p class="footer__tagline">Western Australian Environmental Consultancy</p>
+          <p class="footer__tagline">Western Australian Environmental Consultancy specialising in environmental compliance management.</p>
         </div>
         <div>
           <p class="footer__heading">Quick Links</p>
